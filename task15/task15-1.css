@@ -106,18 +106,22 @@ header {
 
 .cont1 {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  flex-flow: row wrap; }
 
 .cir0 {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  flex-wrap: wrap; }
+  text-align: center; }
+
+.spot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background: #999; }
 
 .cir {
   color: #b0b0b0;
-  width: 5rem;
-  list-style: initial;
   border-bottom: solid 1px #fff;
   font-size: 1px;
   line-height: 2rem; }
@@ -160,5 +164,11 @@ footer {
   .text2 {
     color: #999999;
     text-align: center; } }
+@media screen and (min-width: 768px) {
+  .cir0 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap; } }
 
 /*# sourceMappingURL=task15-1.css.map */
