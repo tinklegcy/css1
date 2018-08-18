@@ -150,8 +150,9 @@ footer {
 .text-center {
   text-align: center;
 }
-.text-left {
-  text-align: left;
+
+.pad-top {
+  padding-top: 10px;
 }
 @media screen and (max-width: 992px) {
   .user {
@@ -162,5 +163,11 @@ footer {
 @media screen and (min-width: 992px) {
   .user-num {
     border-left: 1px dashed #dedede;
+  }
+}
+@media screen and (max-width: 768px) {
+  .text2 {
+    color: #999999;
+    text-align: center;
   }
 }
